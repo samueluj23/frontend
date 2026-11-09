@@ -26,7 +26,6 @@
     "react-scripts": "5.0.1",
     "react-toastify": "^10.0.4",
     "sweetalert2": "^11.10.7",
-    "swiper": "^11.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -54,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "ajv": "^8.20.0",
     "assert": "^2.1.0",
     "browserify-zlib": "^0.2.0",
     "buffer": "^6.0.3",

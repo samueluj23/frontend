@@ -16,7 +16,7 @@ module.exports = function override(config) {
     config.ignoreWarnings = [/Failed to parse source map/];
     config.plugins = (config.plugins || []).concat([
         new webpack.ProvidePlugin({
-            process: 'process/browser',
+            process: 'process/browser.js',
             Buffer: ['buffer', 'Buffer']
         }),
         new webpack.ProvidePlugin({
